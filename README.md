@@ -10,6 +10,7 @@ plurk_api_2.0_demo_php
   		| content: The Plurk's text.                            |
 			| qualifier: The Plurk's qualifier, must be in English. |
       --------------------------------------------------------
+	 
 把它改成像是array("content"=>rawurlencode($message),"qualifier"=>$qulifier) 這樣的形式
 丟進去do_action 裡面當參數即可。
 by davidou 
